@@ -6,7 +6,7 @@
 - 需要增加windows azure active directory的permission
 - <img src="media/permission.png"  />
 - reply url使用localhost:8080
-- <img src="mmedia/authenticationconf.png"  />
+- <img src="media/authenticationconf.png"  />
 
 
 
@@ -59,10 +59,11 @@ When you open the Graph Viewer webpage, enter the following information in the t
 - tenant: This is the name or id of your Azure tenant, for example `6f68d89e-8f99-4798-8850-a5d557c3341e`
 - clientId: This is the application id of the Azure Active Directory application you created in the previous step. It is formatted as a Guid.
 
-## Run as Docker container
+## Run as Docker container （使用此种模式）
 
 If you want to run the the Graph Viewer as Docker container on your machine, you can execute the following commands from within the root directory of the repository:
 
+- `cd azure-digital-twins-graph-viewer`
 - `docker build . -t azure-digital-twins-viewer`
 - `docker run -p 8080:80 azure-digital-twins-viewer`
 
