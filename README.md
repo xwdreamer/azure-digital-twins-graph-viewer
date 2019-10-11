@@ -1,3 +1,15 @@
+
+# 几点总结
+
+- 用chrome不行，用firefox和Safari可以
+- <img src="media/asset-tree.png"  />
+- 需要增加windows azure active directory的permission
+- <img src="media/permission.png"  />
+- reply url使用localhost:8080
+- <img src="mmedia/authenticationconf.png"  />
+
+
+
 # Introduction
 This "Azure Digital Twins Graph Viewer" serves as a front-end to the [Azure Digital Twins](https://azure.microsoft.com/en-us/services/digital-twins/) spatial intelligence graph. It provides the following features:
 - Visualizing the relationship between spaces, devices and sensors created in the Azure Digital Twins model
